@@ -1,0 +1,616 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+.he1 li{
+    list-style: none;
+    display: inline;
+   
+}
+header .he1 {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 86, 145);
+  
+}
+li .first{
+    font-size: 20px;
+    color: white;
+    padding-left: 150px;
+    line-height: 80px;
+}
+li .sec{
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    line-height: 80px;
+}
+li .social {
+    font-size: 25px;
+    color: white;
+    margin-left: 100px;
+    line-height: 80px;
+   
+}
+li .f {
+    font-size: 25px;
+    color: white;
+    margin-left: 40px;
+    line-height: 80px;
+   
+}
+li .t {
+    font-size: 25px;
+    color: white;
+    margin-left: 40px;
+    line-height: 80px;
+   
+}
+li .re {
+    list-style: none;
+    font-size: 25px;
+    color: white;
+    margin-left: 40px;
+    line-height: 80px;
+    text-decoration: none;
+   
+}
+li .lo {
+    list-style: none;
+    font-size: 25px;
+    color: white;
+    margin-left: 40px;
+    line-height: 80px;
+    text-decoration: none;
+}
+header .he2 {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+  
+}
+.logo img {
+    width: 120px;
+    height: 60px;
+    float: left;
+    list-style: none;
+    }
+    li .menu {
+        list-style: none;
+        font-size: 28px;
+        line-height: 70px;
+        float: right;
+        margin-right: 12px;
+    }
+    li{
+        list-style: none;
+    }
+   .he3 .navelement {
+        text-decoration: none;
+        background-color: rgb(12, 25, 35);
+        width: 100%;
+        color: cornsilk;
+        font-size:30px;
+        padding: auto;
+        display: block;
+        text-align: center;
+        padding: 40px;
+        border: 1px solid rgb(37, 48, 57);
+      
+
+        
+    }
+    header .he3{
+        width: 100%;
+    }
+    .dropc1{
+        display: none;
+    }
+    .dropc2{
+        display: none;
+    }
+    .dropc3{
+        display: none;
+    }
+    .dropc4{
+        display: none;
+    }
+    .drop:hover .dropc1 {
+        display: block;
+        transform: 4s;
+    }
+    .drop1:hover .dropc2 {
+        display: block;
+        transform: 4s;
+    }
+    .drop2:hover .dropc3 {
+        display: block;
+        transform: 4s;
+    }
+    .drop3:hover .dropc4 {
+        display: block;
+        transform: 4s;
+    }
+    header .navelement:hover{
+       
+        background-color:rgb(37, 48, 57);
+        border: 1px solid rgb(243, 99, 113);
+       
+    }
+    header #red:hover{
+       
+       color:rgb(243, 99, 113);
+       
+    }
+    .he3{
+        transform-origin: top;
+        transform: scale(0);
+        opacity: 0;
+        left: 0%;
+        display: none;
+
+    }
+    .show_menu{
+        transform: scale(1);
+        opacity: 1;
+        display: block;
+    }
+    .home{
+        width: 100%;
+        height: 840px;
+        background-image: url('../images/std.jpg');
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .body1{
+        margin: auto;
+        width: 60%;
+    }
+    .body1 .titl {
+        color:rgb(243, 99, 113);
+        font-size: 50px;
+        padding-top: 140px;
+        text-shadow: 2px 2px white ;
+       
+    }
+    .body1 .text {
+        color:white;
+        font-size: 30px;
+        
+       
+    }
+    .body1 .insc {
+        
+        background-color: rgb(0, 86, 145);
+        height: 80px;
+        width: 300px;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 40px;
+        
+    }
+    .insc a {
+    text-decoration: none;
+    color:white;
+    line-height: 80px;
+    
+  } 
+  .body1 .insc:hover{
+    background-color: rgb(243, 99, 113);
+    transition: 1s;
+  }
+  .about{
+    width: 100%;
+    height: 880px;
+    background-color:rgb(249, 249, 249);
+    
+}
+.about .ab-cent{
+    width: 80%;
+   margin: auto;
+    
+}
+.ab-cent .ab {
+    padding: 30px;
+    font-size: 35px;
+}
+
+.ab-cent p {
+    font-size: 20px;
+}
+.ab-cent .ab2 {
+    padding: 5px;
+    font-size: 25px;
+    color: rgb(0, 86, 145);
+    margin-left: 30px;
+}
+
+.ab-cent p{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.img1 img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    height: 300px;
+    width: 600px;
+    margin-top: 90px;
+}
+
+.comp{
+ width: 100%;
+ height: 600px;
+ background-image: url("../images/Black-Brick-Wall-Background1.jpg");
+ display: block;
+}
+.comp .fi-1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+   }
+   .fi-1 .z{
+    width: 50%;
+    height: 100%;
+   }
+   
+.formation{
+    width: 100%;
+    height: 880px;
+    background-color:rgb(249, 249, 249);
+  
+
+}
+.fo-con{
+    width: 80%;
+    margin: auto;
+}
+
+
+footer{
+    width: 100%;
+    height: 580px;
+    background-color: rgb(0, 86, 145);
+}
+.lg img{
+    width: 240px;
+    height: 120px;
+    margin: auto;
+    display: block;
+  
+
+}
+.lg1{
+  width: 100%;
+}
+#f-ic{
+    margin: 10px;
+    font-size: 23px;
+    color: rgb(249, 249, 249);
+}
+.contc{
+    margin: 32px;
+}
+.contc h1{
+   color: rgb(243, 99, 113);
+   font-size: 40px;
+}
+.contc .text{
+    color:rgb(249, 249, 249);
+    font-size: 20px;
+ }
+ footer .fo-dv{
+     display: flex;
+ }
+ .f-las h2{
+     margin: 23px;
+     color: rgb(243, 99, 113);
+     font-size: 40px;
+
+ }
+ .f-las #f-ic2{
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+    font-size: 40px;
+    margin-left: 20px;
+
+}
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.container{
+	width:100%;
+	height: 100vh;
+	
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.box{
+	width:350px;
+	height:610px;
+
+	box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin: 20px 10px;
+}
+.box .pl-dt{
+    
+    background-color:rgb(0, 86, 145) ;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 15px 32px;
+    color:rgb(249, 249, 249) ;
+    display: none;
+
+
+}
+.model{
+	height: 350px;
+	max-height: 100%;
+	max-width: 100%;
+}
+.details{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+}
+.details p{
+	font-family: calibri;
+	font-weight: bold;
+	color:#6a6a74;
+	text-align: center;
+	margin-top: 20px;
+}
+.marvel{
+	color:#32323e;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: bebas kai;
+	font-size: 25px;
+}
+.logo{
+	height: 60px;
+}
+.box:hover{
+	background-color: #17171d;
+	transform-style: preserve-3d;
+	transform: scale(1.02);
+	transition: all ease 0.3s;
+}
+.box:hover .marvel{
+	color:#c0292b;
+	transition: all ease 0.5s;
+}
+.box:hover .pl-dt{
+    display: block;
+}
+/*--responsive for mobile phone--*/
+@media(max-width:720px){
+	header .he1{
+        display: none;
+    }
+    .box{
+		width: 94%;
+		height: 500px;
+	}
+	.model{
+		height:250px;
+	}
+	.details p{
+		font-size: 16px;
+		width: 250px;
+	}
+    
+	
+}
+.fo-tit{
+    position: relative;
+   
+}
+.fo-tit h1{
+text-align: center;   
+}
+.fo-tit  h3{
+    text-align: center;   
+    }
+.im-log{
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/log-back.jpg");
+    background-size: cover;
+}
+.hol-log{
+    width: 100%;
+    height: 880px;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    
+  
+
+}
+#ic{
+    margin: 15px;
+}
+.log-con{
+    width: 70%;
+    height: 600px;
+    background-color:rgb(255, 255, 255);
+    margin: auto;
+    box-shadow: -3px 5px 21px 0px rgba(0,0,0,0.35);
+    overflow-y: scroll;
+    
+    }
+    .lg-logi img{
+        height: 80px;
+        width: 100px;
+        margin: auto;
+    }
+    .lg-logi {
+        height: 80px;
+        width: 100px;
+        margin: auto;
+        margin-top: 15px;
+    }
+    
+    
+    .pl-dt:hover{
+        background-color:rgb(243, 99, 113) ;
+    }
+    .login{
+        text-align: center;
+        margin: 10px 0;
+    }
+    .field input{
+        width:70% ;
+        padding: 15px;
+        border: 1px solid rgb(0, 86, 145) ;
+        font-size: 16px;
+        margin-bottom: 30px;
+        
+    }
+    .h-lo{
+        margin-bottom: 20px;
+    }
+    .pass-link{
+        margin-bottom: 15px;
+    }
+    .field input[type="submit"]{
+        background-color: rgb(0, 86, 145);
+        width: 30%;
+        font-size: 25px;
+        transition: .5s;
+        margin-top: 15px;
+        
+    }
+    .field input[type="submit"]:hover{
+        background-color:rgb(243, 99, 113) ;
+    }
+    .field select{
+        width:70% ;
+        padding: 15px;
+        border: 1px solid rgb(0, 86, 145) ;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+   .im-bad{
+       width: 100%;
+       height: 300px;
+       background-image: url('../images/finance_recrutement_1.jpg');
+       background-size: cover;
+       background-position:center ;
+       font-family: 'Dancing Script', cursive;
+   }
+   .im-bad h1{
+    color: blanchedalmond;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200px;
+}
+   .po-bo{
+       width: 80%;
+       margin: auto;
+       display: flex;
+   }
+   .po-1{
+       width: 30%;
+       margin-left: 25px;
+       text-align: center;
+   }
+   .ce-fc{
+       display: flex;
+       line-height: 1.6;
+       margin: 20px;
+   }
+   .fc-cer img{
+       padding: 50px;
+   }
+   .con-fo{
+    line-height: 1.6;
+    text-align: center;
+   }
+   .pub{
+       width: 100%;
+       height: 100vh;
+       background-color: rgb(249, 249, 249);
+   }
+   .pub-ce{
+       width: 70%;
+       height: 100vh;
+       margin: auto;
+       background-color: rgb(112, 103, 121);
+       display: flex;
+       flex-wrap: wrap;
+       gap:0;
+      
+   }
+   .pub-im{
+       width:50% ;
+       height: 40%;
+       background-color: crimson;
+     
+      
+      
+   }
+   .pub-im a{
+       z-index: 10;
+    color:cornsilk;
+       }
+   .pu-b{
+       padding: 5px 30px;
+       background-color:rgb(0, 86, 145) ;
+       margin: auto;
+       font-size: 25px;
+       color: cornsilk;
+   }
+   .pub-im img{
+    width:100% ;
+    height: 90%;
+    
+
+}   
+.z img{
+  width: 30%;
+  height: 70%;
+  align-items: center;
+  margin-left: 30%;
+}
+.first-l{
+    height: 300px;
+    width: 100%;
+    background-image: url("../images/log-back.jpg");
+    background-size: cover;
+    text-align: center;
+}
+.first-l h1{
+line-height: 300px;
+color: rgb(0, 86, 145);
+font-size: 30px;
+
+}
+.first-l .conci{
+    display: flex;
+}
